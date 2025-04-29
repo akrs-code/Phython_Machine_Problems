@@ -10,6 +10,6 @@ class Rectangle(Shape):
     def calculate_area(self):
         return self.length * self.width
     
-
 rectangle = Rectangle(2,3)
 print(rectangle.calculate_area())
+

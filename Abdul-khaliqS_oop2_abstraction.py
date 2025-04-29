@@ -13,11 +13,15 @@ class Fan(Appliance):
     def turn_on(self):
         print("Fan turned on")
 
+class Washing_Machine(Appliance):
+    def turn_on(self):
+        print("Machine turned on")
+
 my_lamp = Lamp()
 my_lamp.turn_on()
 
 my_fan = Fan()
 my_fan.turn_on()
 
-my_appliance = Appliance()
-my_appliance.turn_on()
+my_machine = Washing_Machine()
+my_machine.turn_on()
