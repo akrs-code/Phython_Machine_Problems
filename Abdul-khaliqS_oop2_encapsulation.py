@@ -13,7 +13,7 @@ class Student:
             print("The grade must be between 0 and 100")
 
 student1 = Student()
-student1.set_grade()
+student1.set_grade(100)
 print(student1.get_grade())
 
 
